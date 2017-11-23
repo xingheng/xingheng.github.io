@@ -1,23 +1,23 @@
-title:            Site Title
-description:      Describe your website here.
-disqus_shortname: 
+title:            Think Different
+description:      An iOS mobile developer's note and life.
+disqus_shortname: xingheng
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:
+url:              
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Will Han
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good sentence or two should suffice."
-  email:          you@email.com
+  bio:            "Play with objective-C on iOS and all kinds of funny."
+  email:          xinghenghan@hotmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter:        xingheng907
   facebook:       
-  github:         
-  stackexchange:  
+  github:         xingheng907
+  stackexchange:  https://stackoverflow.com/users/1677041/itachi
   linkedin:       
   instagram:      
   flickr:         
@@ -35,7 +35,7 @@ google_verify:
 bing_verify:         
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Asia/Chongqing
 future:      false  # publish future dated posts --  true, false (default) 
 highlighter: rouge
 markdown:    kramdown

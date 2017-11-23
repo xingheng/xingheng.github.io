@@ -1,7 +1,7 @@
 # Menu navigation links
 
-- title: Theme Setup
-  url: /theme-setup/
-
 - title: 163 Blog
   url: http://xinghenghan.blog.163.com
+
+- title: Theme
+  url: /theme-setup/

@@ -4,9 +4,9 @@ title: About the software
 description: "lakjd"
 image:
   path: http://example.jpg
-  feature: abstract-5.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature: unix_desktop.png
+  credit: smjtech
+  creditlink: https://smjtech.wordpress.com/2014/04/22/commands-to-find-system-information-on-unix-linux-systems/
 tags: [software, UE]
 comments: false
 reading_time: false
@@ -36,6 +36,3 @@ At that time, all the applications will have a big transition. The vendors have 
 &nbsp;
 
 So, what's the software? It's hardware before, tool-likes now, interface future.
-
-
-

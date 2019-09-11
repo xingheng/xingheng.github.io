@@ -11,12 +11,12 @@ url:              https://xingheng.github.io
 owner:
   name:           Will Han
   avatar:         avatar.jpg
-  bio:            "Play with objective-C on iOS and all kinds of funny."
+  bio:            "Play with iOS and all kinds of funny."
   email:          xinghenghan@hotmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        xingheng907
   facebook:       
-  github:         xingheng907
+  github:         xingheng
   stackexchange:  https://stackexchange.com/users/1850375/itachi
   linkedin:       
   instagram:      
@@ -52,7 +52,7 @@ sass:
 permalink:   /:categories/:title/
 
 # Amount of post to show on home page
-paginate: 5
+paginate: 3
 
 kramdown:
   input: GFM

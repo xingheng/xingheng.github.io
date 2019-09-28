@@ -15,28 +15,29 @@ owner:
   email:          xinghenghan@hotmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        xingheng907
-  facebook:       
+  facebook:
   github:         xingheng
   stackexchange:  https://stackexchange.com/users/1850375/itachi
-  linkedin:       
-  instagram:      
-  flickr:         
-  tumblr:         
+  linkedin:
+  instagram:
+  flickr:
+  tumblr:
   # google plus id, include the '+', eg +mmistakes
   google_plus:
 
 # Background image to be tiled on all pages
-background: 
+background:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+# From https://analytics.google.com
+google_analytics:   UA-53120540-3
+google_verify:      PCP_pxTOjwjhkZiUe6R-_cYbyy4CudzvE8lcmW68ODE
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Chongqing
-future:      false  # publish future dated posts --  true, false (default) 
+future:      false  # publish future dated posts --  true, false (default)
 highlighter: rouge
 markdown:    kramdown
 plugins:
@@ -62,9 +63,9 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-include: 
+include:
   - .htaccess
-exclude: 
+exclude:
   - "*.less"
   - "*.sublime-project"
   - "*.sublime-workspace"

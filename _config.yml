@@ -12,7 +12,7 @@ owner:
   name:           Will Han
   avatar:         avatar.jpg
   bio:            "Play with iOS and all kinds of funny."
-  email:          xinghenghan@hotmail.com
+  email:          willhan.io@outlook.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        xingheng907
   facebook:
@@ -88,3 +88,4 @@ exclude:
   - package.json
   - spec
   - tmp
+  - justfile

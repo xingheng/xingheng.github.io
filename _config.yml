@@ -35,6 +35,10 @@ google_verify:      PCP_pxTOjwjhkZiUe6R-_cYbyy4CudzvE8lcmW68ODE
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
+# https://platform.sharethis.com/settings
+sharethis_property: 5e6e200bab7d8600129c2623
+sharethis_product:  inline-share-buttons
+
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Chongqing
 future:      false  # publish future dated posts --  true, false (default)

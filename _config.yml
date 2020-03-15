@@ -1,6 +1,5 @@
 title:            Think Different
 description:      An iOS mobile developer's note and life.
-disqus_shortname: xingheng
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
@@ -35,9 +34,19 @@ google_verify:      PCP_pxTOjwjhkZiUe6R-_cYbyy4CudzvE8lcmW68ODE
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
+# Share extension
 # https://platform.sharethis.com/settings
 sharethis_property: 5e6e200bab7d8600129c2623
 sharethis_product:  inline-share-buttons
+
+# Comment service
+# https://utteranc.es/
+utterances:
+  repo:             xingheng/xingheng.github.io
+  issue_term:       pathname
+  label:            utterance
+  theme:            github-light
+  crossorigin:      anonymous
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Chongqing

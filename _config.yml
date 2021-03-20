@@ -34,6 +34,10 @@ google_verify:      PCP_pxTOjwjhkZiUe6R-_cYbyy4CudzvE8lcmW68ODE
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
+# Google AdSense
+# From https://www.google.com/adsense
+google_adsense:     ca-pub-9494768228713247
+
 # Share extension
 # https://platform.sharethis.com/settings
 sharethis_property: 5e6e200bab7d8600129c2623

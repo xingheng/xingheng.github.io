@@ -45,6 +45,9 @@
 <!-- Load sharethis -->
 {% if site.sharethis_property %}<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property={{ site.sharethis_property }}&product={{ site.sharethis_product }}" async="async"></script>{% endif %}
 
+<!-- Google AdSense -->
+{% if site.google_adsense %}<script data-ad-client="{{ site.google_adsense }}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>{% endif %}
+
 <!-- Icons -->
 <!-- 16x16 -->
 <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">

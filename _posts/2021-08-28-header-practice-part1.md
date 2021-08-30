@@ -13,7 +13,7 @@ reading_time: true
 modified: 2021-03-07
 ---
 
-```objective-c
+```
 #import <UIKit.h>
 ```
 
@@ -263,9 +263,11 @@ Objective-C 在项目中离不开头文件，它是最基本的控制对象访�
 
 #### Conclusion
 
-从上面所有对比测试中可以确认两个重要的点：
+从上面所有对比测试中可以确认几个重要的点：
 
 * 不管是 prefix header 还是普通的 header file，只要文件的修改时间 `mtime` 发生了改变就算是内容的变化。
+* 一个普通的 header 被引用到了 prefix header 里面之后，这个文件就相当于是 prefix header 的一部分了。
 * Prefix header 的改动会影响当前环境的所有源文件的重编译，但是普通的 header 可以*分流*，可以控制编译时长。
 
-基于这个结论，下一篇我们再来分析怎样从头文件的角度优化项目的编译速度。
+基于这个结论，[下一篇](https://xingheng.github.io/header-practice-part2/)我们再来分析怎样从头文件的角度优化项目的编译速度。
+

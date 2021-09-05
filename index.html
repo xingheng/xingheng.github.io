@@ -34,8 +34,11 @@ image:
     {% endif %}
   </header>
   <div class="entry-content">
-    {{ post.content }}
+    {{ post.content | truncatewords: 50, "" }}
   </div><!-- /.entry-content -->
+  <div>
+     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" target="_blank">Read More</a>
+  </div>
 </article><!-- /.hentry -->
 {% endfor %}
 

@@ -96,3 +96,4 @@ Notion，这就是所谓万众瞩目的*重新定义笔记*了，第一印象它
 
 [just](https://github.com/casey/just)，有些复杂的命令只是针对某个项目的，添加到全局的 pet 里面并不是很合适，这个时候可以考虑通过一个 `justfile` 把它们存起来，just 还不局限于当前 shell 的执行环境，还能利用当前系统中其他解释器，比如 python, ruby, swift 等等。推荐将 `justfile` 添加到项目的版本控制中。
 
+[DocFetcher](http://docfetcher.sourceforge.net/en/index.html)，这是一个开源的GUI搜索工具，可以用来搜索指定的各类本地文件，自动创建索引。我把所有 `nb` 笔记本仓库的目录都添加了进去，发现它创建的索引文件并不是和对应的目录下面的，没用污染，很赞的一个轻量级工具。占用的系统资源极少，不过在 macOS 下有时候会无响应。

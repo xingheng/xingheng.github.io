@@ -7,7 +7,7 @@ image:
   feature: chrome-vs-chromium.jpeg
   credit: kompitren
   creditlink: https://www.kompitren.com/2017/06/perbedaan-antara-google-chrome-dan-chromium-browser/
-tags: [cef, mac, Objective-C, C++]
+tags: [cef, mac, objective-c, c++]
 comments: true
 reading_time: true
 modified: 2017-12-24

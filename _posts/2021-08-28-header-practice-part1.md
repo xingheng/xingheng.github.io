@@ -158,7 +158,7 @@ Objective-C 在项目中离不开头文件，它是最基本的控制对象访�
 
     平均时长：第一次 44s，第二次 36.2s
 
-    [![asciicast](https://asciinema.org/a/432625.svg)](https://asciinema.org/a/432625)
+    <script src="https://asciinema.org/a/14.js" data-preload="false" id="asciicast-432625" async></script>
 
   * **Case 2-2**: build with cache
 
@@ -168,7 +168,7 @@ Objective-C 在项目中离不开头文件，它是最基本的控制对象访�
 
   * **Case 3-1**: build with existing cache
 
-    ![asciicast](https://asciinema.org/a/432631.svg)
+    <script src="https://asciinema.org/a/14.js" data-preload="false" id="asciicast-432631" async></script>
 
     总时长：31s。
 
@@ -229,8 +229,8 @@ Objective-C 在项目中离不开头文件，它是最基本的控制对象访�
 
   * **Case 5-1**: edit or touch, build with cache
 
-    [![asciicast](https://asciinema.org/a/432973.svg)](https://asciinema.org/a/432973)
-
+    <script src="https://asciinema.org/a/14.js" data-preload="false" id="asciicast-432973" async></script>
+    
     结果证明被引用到 prefix header 中的文件就相当于 prefix header 中的一部分，任何被引用的头文件的修改也会被定义为 prefix header 已经脏了，即需要重新编译整个项目的源文件。
 
 * **Case 6**: 跳过 prefix header，让所有的源文件直接引用一个普通的头文件
@@ -255,8 +255,8 @@ Objective-C 在项目中离不开头文件，它是最基本的控制对象访�
     #endif
     ```
 
-    [![asciicast](https://asciinema.org/a/432979.svg)](https://asciinema.org/a/432979)
-
+    <script src="https://asciinema.org/a/14.js" data-preload="false" id="asciicast-432979" async></script>
+    
     对比可以看到只是 `CommonHeader.h` 发生变化的话就只编译了一半的源文件，编译时间也减少了一半左右。
 
 

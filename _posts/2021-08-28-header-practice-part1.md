@@ -71,7 +71,7 @@ Objective-C 在项目中离不开头文件，它是最基本的控制对象访�
 
   头文件为空，预编译 `MainViewController.m`：
 
-  ```objective-c
+  ```objc
   # 1 "/Users/me/Documents/Projects/gitRepository/HeaderPractice/HeaderPractice/MainViewController.m"
   # 1 "<built-in>" 1
   # 1 "<built-in>" 3
@@ -112,7 +112,7 @@ Objective-C 在项目中离不开头文件，它是最基本的控制对象访�
 
   为了模拟头文件引用在真实项目里面的编译情况，我们直接生成1000个源文件来测试，文件内容也很简单，只是单纯定义了一个 placeholder 类而已：
 
-  ```objective-c
+  ```objc
   //
   //  Placeholder1.h
   //  HeaderPractice
@@ -135,7 +135,7 @@ Objective-C 在项目中离不开头文件，它是最基本的控制对象访�
   NS_ASSUME_NONNULL_END
   ```
 
-  ```objective-c
+  ```objc
   //
   //  Placeholder1.m
   //  HeaderPractice
@@ -218,7 +218,7 @@ Objective-C 在项目中离不开头文件，它是最基本的控制对象访�
   
   继续对 `MainViewController.m` 预编译看一下结果，和 *Case 1* 中的结果对比，主要是增加了所有系统头文件的 `#pragma` 编辑器指令，其他的并没有什么大的不同。
   
-  ```objective-c
+  ```objc
   #pragma clang module import Foundation /* clang -E: implicit import for #import <Foundation/Foundation.h> */
   #pragma clang module import UIKit /* clang -E: implicit import for #import <UIKit/UIKit.h> */
   ```
@@ -249,7 +249,7 @@ Objective-C 在项目中离不开头文件，它是最基本的控制对象访�
 
     虽然已经能意料到了但是我们还是验证一下这个结果：只在上文中生成的1000个文件中选一半的文件进行对比。
 
-    ```objective-c
+    ```objc
     #if $id <= 500
     	#import "CommonHeader.h"
     #endif

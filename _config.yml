@@ -1,5 +1,5 @@
 title:            Think Different
-description:      An iOS mobile developer's note and life.
+description:      An apple platform developer's note and life.
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
@@ -10,7 +10,7 @@ url:              https://xingheng.github.io
 owner:
   name:           Will Han
   avatar:         avatar.jpg
-  bio:            "Play with iOS and all kinds of funny."
+  bio:            "Play with iOS, macOS and all kinds of funny."
   email:          willhan.io@outlook.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        xingheng907

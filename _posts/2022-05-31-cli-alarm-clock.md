@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Useful scripts I used (Part 6)
+title: CLI alarm clock.
 description: 我用过的有用的脚本(6)
 image:
   path: http://example.jpg
@@ -15,7 +15,7 @@ modified: 2022-05-31
 
 
 
-> Wake me up lightly.
+> Sir, you should wake up lightly.
 
 
 

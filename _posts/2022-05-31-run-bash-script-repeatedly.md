@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Useful scripts I used (Part 1)
+title: Run bash script repeatedly
 description: 我用过的有用的脚本(1)
 image:
   path: http://example.jpg
@@ -13,10 +13,7 @@ reading_time: true
 modified: 2022-05-31
 ---
 
-
-
-> Run bash script repeatedly.
-
+> Hey, your long-running command has been finished.
 
 
 #### Loop

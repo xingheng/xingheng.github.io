@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Useful scripts I used (Part 5)
+title: Generate qrcode in CLI
 description: 我用过的有用的脚本(5)
 image:
   path: http://example.jpg
@@ -55,4 +55,3 @@ qrcode:
 2. 在对应的 [justfile]所在目录里执行 `just qrcode`
 3. 使用手机扫码
 4. Ctrl + c 结束使用
-

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Useful scripts I used (Part 3)
+title: Proxy management
 description: 我用过的有用的脚本(3)
 image:
   path: http://example.jpg
@@ -249,4 +249,3 @@ proxy on --system --netservice Wi-Fi --port 7890
 ```bash
 proxy --help
 ```
-

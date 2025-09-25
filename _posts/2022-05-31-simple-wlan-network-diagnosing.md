@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Useful scripts I used (Part 4)
+title: Simple WLAN network diagnosing
 description: 我用过的有用的脚本(4)
 image:
   path: http://example.jpg
@@ -62,4 +62,3 @@ check-subnet:
 just check-router
 just check-subnet
 ```
-

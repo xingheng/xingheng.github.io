@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Useful scripts I used (Part 7)
+title: Drink water reminder
 description: 我用过的有用的脚本(7)
 image:
   path: http://example.jpg

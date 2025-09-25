@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Useful scripts I used (Part 2)
+title: Command Line Notification
 description: 我用过的有用的脚本(2)
 image:
   path: http://example.jpg
@@ -102,4 +102,3 @@ alert "wget" "finished downloding"
 ```bash
 bark "wget finished"
 ```
-

@@ -21,7 +21,7 @@ modified: 2022-07-02
 
 ## Preface
 
-In [the last post](https://xingheng.github.io/objective-c-with-mvc-on-ios/) I’ve proven what the view model it is and how to use it correctly in mvc pattern, it can recall me about another famous architectural pattern [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) (Model-View-ViewModel) always. However, they are two different patterns totally, I also mentioned the key point is the binding technology. So what on earth is it and how does it work? Let’s split it into piece.
+In [the last post]({% post_url 2022-06-06-objective-c-with-mvc-on-ios %}) I’ve proven what the view model it is and how to use it correctly in mvc pattern, it can recall me about another famous architectural pattern [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) (Model-View-ViewModel) always. However, they are two different patterns totally, I also mentioned the key point is the binding technology. So what on earth is it and how does it work? Let’s split it into piece.
 
 
 

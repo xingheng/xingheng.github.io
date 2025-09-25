@@ -27,7 +27,7 @@ Todo list 类的工具我用过很多了，印象中第一个在 Android 手机�
 
 iCloud 的同步服务时好时外，一旦碰上它抽风了我就要问候苹果全家了，尤其是 mac 版的 Reminders。再加上那傻瓜式的 GUI 每次我都得在那个小窗口里面用鼠标点来点去才能完成一个任务的创建，后来我就放弃了在桌面版的输入体验了。现在我主要在手机上保留了生活类相关的任务，工作相关的数据尽可能不放在上面，除非电脑不在旁边但是又想起了什么。
 
-我认为手机一直都不是一个很好的打字窗口，体验碎得一地，还要看 app 做得怎么样，所以我一直不看好在手机上做编辑器的类 app，这部分我之前也记录过[一些想法](https://xingheng.github.io/prefer-note-taking-app/)。
+我认为手机一直都不是一个很好的打字窗口，体验碎得一地，还要看 app 做得怎么样，所以我一直不看好在手机上做编辑器的类 app，这部分我之前也记录过[一些想法]({% post_url 2021-03-07-prefer-note-taking-app %})。
 
 Todo list 还在继续增长，维护无序的平台和数据格式让我很头痛，直到我遇见了它，**[Taskwarrior](https://taskwarrior.org)**。毫不掩饰地说，我爱死这货了！最初遇见的几天我满脑子都是它，到底要怎样认识它，怎样和它相处，怎样和它擦出火花。
 
@@ -51,7 +51,7 @@ Taskwarrior 的拓展还提供了各种形态的交互，有 TUI，shell，web �
 
 #### Data Sync
 
-我勉强算是一个 git 重度用户了，很久以前就把各种文档类数据往 git / github 上[扔](https://xingheng.github.io/prefer-note-taking-app/)，自己手写过类似的同步脚本。这样的*变态*肯定不只我一个，这次 google 了一下发现了好多同类，有针对 taskwarrior 的，也有针对通用文本类数据的。[git-sync](https://worthe-it.co.za/blog/2016-08-13-automated-syncing-with-git.html) 就是后者，对比了好几个版本的同类脚本后，我认为这个版本是严格基于 git 日常操作执行的最规范版本。简单描述一下：通过指定需要同步的分支和对应的配置，然后在执行 `git-sync` 的时候就会把当前匹配修改的文件自动 commit & rebase & push。当然如果 merge 的时候还是有冲突，那还是需要手动解决。
+我勉强算是一个 git 重度用户了，很久以前就把各种文档类数据往 git / github 上[扔]({% post_url 2021-03-07-prefer-note-taking-app %})，自己手写过类似的同步脚本。这样的*变态*肯定不只我一个，这次 google 了一下发现了好多同类，有针对 taskwarrior 的，也有针对通用文本类数据的。[git-sync](https://worthe-it.co.za/blog/2016-08-13-automated-syncing-with-git.html) 就是后者，对比了好几个版本的同类脚本后，我认为这个版本是严格基于 git 日常操作执行的最规范版本。简单描述一下：通过指定需要同步的分支和对应的配置，然后在执行 `git-sync` 的时候就会把当前匹配修改的文件自动 commit & rebase & push。当然如果 merge 的时候还是有冲突，那还是需要手动解决。
 
 `task` 还支持几种简单的 hook，虽然没有 git hook 那么完整，但是对于我目前的数据同步的需求还是够用的。默认情况下 `git-sync` 产生的 commit message 是毫无意义的，但是基于 task hook 我们可以让 commit message 变得有意义起来。
 

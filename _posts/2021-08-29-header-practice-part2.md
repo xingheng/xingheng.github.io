@@ -21,7 +21,7 @@ modified: 2021-08-29
 
 #### Story
 
-[上一篇](https://xingheng.github.io/header-practice-part1/)我们已经试验了一番头文件的引用和编译时长的关系，但是好像和我们的实际项目没多大关系，或者关系不大？想想好像没人会一股脑地往 prefix header 里面塞一堆的头文件引用，不一定，这个得结合实际看结果。
+[上一篇]({% post_url 2021-08-28-header-practice-part1 %})我们已经试验了一番头文件的引用和编译时长的关系，但是好像和我们的实际项目没多大关系，或者关系不大？想想好像没人会一股脑地往 prefix header 里面塞一堆的头文件引用，不一定，这个得结合实际看结果。
 
 基于之前的结论，一个普通的 header 被引用到 prefix header 里了之后，被*引用的内容* 就已经是 prefix header 的内容了。要想看到我们 Xcode 项目里面真实的 prefix header 长什么样子，还得从头展开。首先从目标 target 的 `Build Setting` - `Prefix Header` 设置中找到目标文件，然后逐行浏览，如果碰到一个 `#import` ，就立刻把该文件的内容提取出来，然后继续深度迭代….直到解析完 prefix header 文件中所有的行为止。想想好像挺无聊的，平时只是在 IDE 里面专注写代码，好像并没有想过这个问题。
 

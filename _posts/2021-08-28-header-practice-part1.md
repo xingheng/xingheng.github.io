@@ -269,5 +269,5 @@ Objective-C 在项目中离不开头文件，它是最基本的控制对象访�
 * 一个普通的 header 被引用到了 prefix header 里面之后，这个文件就相当于是 prefix header 的一部分了。
 * Prefix header 的改动会影响当前环境的所有源文件的重编译，但是普通的 header 可以*分流*，可以控制编译时长。
 
-基于这个结论，[下一篇](https://xingheng.github.io/header-practice-part2/)我们再来分析怎样从头文件的角度优化项目的编译速度。
+基于这个结论，[下一篇]({% post_url 2021-08-29-header-practice-part2 %})我们再来分析怎样从头文件的角度优化项目的编译速度。
 

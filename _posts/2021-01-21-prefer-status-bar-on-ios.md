@@ -7,7 +7,7 @@ image:
   feature: status-bar-in-non-notch-iphone.png
   credit:
   creditlink:
-tags: [iOS, uikit, status-bar, navigation-bar, coding]
+tags: [iOS, UIKit, status-bar, navigation-bar, coding]
 comments: true
 reading_time: true
 modified: 2021-01-26

@@ -7,7 +7,7 @@ image:
   feature:
   credit:
   creditlink:
-tags: [vpn, docker, macos]
+tags: [vpn, docker, macOS]
 comments: true
 reading_time: true
 modified: 2024-12-20

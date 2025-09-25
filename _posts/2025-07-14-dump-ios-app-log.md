@@ -7,7 +7,7 @@ image:
   feature:
   credit:
   creditlink:
-tags: [ios, log]
+tags: [iOS, log]
 comments: true
 reading_time: true
 modified: 2025-07-14
